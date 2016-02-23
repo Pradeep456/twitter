@@ -1,0 +1,1 @@
+sudo /usr/bin/flume-ng agent -c /home/cloudera/workspace/twitter/twitter-flume/src/main/resources/conf -f /home/cloudera/workspace/twitter/twitter-flume/src/main/resources/conf/twitter.conf -n TwitterAgent
