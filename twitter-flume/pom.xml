@@ -1,0 +1,18 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.twitter.hadoop</groupId>
+    <artifactId>twitter</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  <groupId>com.twitter.apps</groupId>
+  <artifactId>twitter-flume</artifactId>
+  <name>twitter-flume</name>
+  <dependencies>
+  	<dependency>
+		<groupId>org.apache.avro</groupId>
+		<artifactId>avro-tools</artifactId>
+		<version>1.7.7</version>
+	</dependency>
+  </dependencies>
+</project>
